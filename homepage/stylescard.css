@@ -1,0 +1,52 @@
+body {
+  background: #21403b;
+  padding: 130px;
+  font-family: "Impact", Avenir, sans-serif;
+  min-height: 100vh;
+  isolation: isolate;
+    {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+    }
+}
+/* Style for the image */
+.placeholder {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.placeholder:hover .avatar {
+  opacity: 0.75;
+}
+
+/* styles for the text */
+h2 {
+  color: #7ab2aa;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+h4 {
+  color: #f7f7f7;
+  font-family: "Avenir Next", Avenir, sans-serif;
+  width: 505px;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.highlight {
+  color: #fdfa58;
+}
